@@ -1,10 +1,10 @@
 """."""
 
-import pandas as pd  # type: ignore
+import pandas as pd
 
 from athlete import Athlete
-from vo2_max_data import vo2_max_data
-from athletes_info import athletes_info
+from src.vo2_max import vo2_max
+from src.examples import examples
 
 
 def update_readme(metric, unit):
@@ -26,15 +26,15 @@ def create_athletes():
     return [
         Athlete(
             name=name,
-            gender=athletes_info[name].get("gender", "Gender not specified"),
-            dob=athletes_info[name].get("dob", "Date of birth is missing!"),
-            height=athletes_info[name].get("height", "Height is missing!"),
-            bodyweight=athletes_info[name].get("bodyweight", "Bodyweight is missing!"),
-            hr_rest=athletes_info[name].get("hr_rest", ""),
-            sport=athletes_info[name].get("sport", ""),
-            death_date=athletes_info[name].get("death_date", ""),
+            gender=examples[name].get("gender", "Gender not specified"),
+            dob=examples[name].get("dob", "Date of birth is missing!"),
+            height=examples[name].get("height", "Height is missing!"),
+            bodyweight=examples[name].get("bodyweight", "Bodyweight is missing!"),
+            hr_rest=examples[name].get("hr_rest", ""),
+            sport=examples[name].get("sport", ""),
+            death_date=examples[name].get("death_date", ""),
         )
-        for name in athletes_info.keys()
+        for name in examples.keys()
     ]
 
 
@@ -94,8 +94,8 @@ def get_category(df, gender_col, age_range, vo2_max):
 def main():
     """."""
 
-    df_males = pd.DataFrame(data=vo2_max_data["M"])
-    df_females = pd.DataFrame(data=vo2_max_data["F"])
+    df_males = pd.DataFrame(data=vo2_max["M"])
+    df_females = pd.DataFrame(data=vo2_max["F"])
     age_ranges = get_age_ranges(df_males, df_females)
     athletes = create_athletes()
     # compare_athletes(athletes)

@@ -1,7 +1,7 @@
 # Source:
 # https://www.garmin.com/en-US/blog/fitness/whats-a-good-vo2-max-for-me/
 
-vo2_max_data = {
+vo2_max = {
     "M": {
         "Males": ["Superior", "Excellent", "Good", "Fair", "Poor"],
         "Percentile": ["95", "80", "60", "40", "0-40"],
