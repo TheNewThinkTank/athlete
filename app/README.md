@@ -1,4 +1,4 @@
-# athlete
+# athleteprofiler
 
 create athlete profiles to compute and analyze physiological metrics.
 

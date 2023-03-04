@@ -5,7 +5,7 @@ with open("app/README.md", "r") as f:
 
 setup(
     name="athleteprofiler",
-    version="0.1.0",
+    version="0.1.1",
     description="An athlete profiler that computes BMI and VO2MAX based on resting heart-rate",
     package_dir={"": "app"},
     packages=find_packages(where="app"),
