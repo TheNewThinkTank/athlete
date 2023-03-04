@@ -16,7 +16,7 @@ examples = {
         "death_date": "2020-01-26",
         "nationality": "US",
     },
-    "gustav_rasmussen": {
+    "somebody": {
         "dob": "1984-12-14",
         "gender": "M",
         "height": 187,

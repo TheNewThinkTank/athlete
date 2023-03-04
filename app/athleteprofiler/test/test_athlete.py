@@ -1,5 +1,5 @@
 from ..src.athlete import Athlete
-from ..src.vo2_max import vo2_max
+from ..src.vo2_max_data import vo2_max_data
 from ..src.examples import examples
 
 

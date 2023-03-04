@@ -2,9 +2,7 @@
 
 import pandas as pd
 
-from athlete import Athlete
-from src.vo2_max import vo2_max
-from src.examples import examples
+from athleteprofiler import Athlete, Team, examples, vo2_max_data
 
 
 def update_readme(metric, unit):
@@ -94,8 +92,8 @@ def get_category(df, gender_col, age_range, vo2_max):
 def main():
     """."""
 
-    df_males = pd.DataFrame(data=vo2_max["M"])
-    df_females = pd.DataFrame(data=vo2_max["F"])
+    df_males = pd.DataFrame(data=vo2_max_data["M"])
+    df_females = pd.DataFrame(data=vo2_max_data["F"])
     age_ranges = get_age_ranges(df_males, df_females)
     athletes = create_athletes()
     # compare_athletes(athletes)

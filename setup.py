@@ -4,8 +4,8 @@ with open("app/README.md", "r") as f:
     long_description = f.read()
 
 setup(
-    name="athlete",
-    version="0.0.1",
+    name="athleteprofiler",
+    version="0.1.0",
     description="An athlete profiler that computes BMI and VO2MAX based on resting heart-rate",
     package_dir={"": "app"},
     packages=find_packages(where="app"),
@@ -20,7 +20,6 @@ setup(
         "Programming Language :: Python :: 3.11",
         "Operating System :: OS Independent",
     ],
-    # install_requires=["pandas >= 1.5.3"],
     extras_require={
         "dev": ["pytest>=7.0", "twine>=4.0.2"],
     },
