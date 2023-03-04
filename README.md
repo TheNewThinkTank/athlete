@@ -1,6 +1,6 @@
 # athlete
 
-create athlete profiles to compute and analyze physiological metrics
+the athlete project repo contains the athleteprofiler package which can create athlete profiles to compute and analyze physiological metrics
 
 ## Installation
 
