@@ -1,4 +1,4 @@
-# athlete
+[![GitHub repo size](https://img.shields.io/github/repo-size/TheNewThinkTank/athlete?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size)](https://github.com/TheNewThinkTank/athlete/archive/refs/heads/main.zip)<br># athlete
 
 the athlete project repo contains the athleteprofiler package which can create athlete profiles to compute and analyze physiological metrics
 
