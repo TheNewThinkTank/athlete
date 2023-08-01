@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-from athleteprofiler import Athlete, Team, examples, vo2_max_data
+from athleteprofiler import Athlete, examples, vo2_max_data  # Team
 
 
 def update_readme(metric, unit):
