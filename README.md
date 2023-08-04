@@ -1,5 +1,4 @@
-![CI](https://github.com/TheNewThinkTank/AACT-Analysis/actions/workflows/wf.yml/badge.svg)
-[![GitHub repo size](https://img.shields.io/github/repo-size/TheNewThinkTank/AACT-Analysis?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size)](https://github.com/TheNewThinkTank/AACT-Analysis/archive/refs/heads/main.zip)
+![PyPI Downloads](https://img.shields.io/pypi/dm/athleteprofiler)
 ![CI](https://github.com/TheNewThinkTank/athlete/actions/workflows/wf.yml/badge.svg)
 [![GitHub repo size](https://img.shields.io/github/repo-size/TheNewThinkTank/athlete?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size)](https://github.com/TheNewThinkTank/athlete/archive/refs/heads/main.zip)<br>
 # athlete
