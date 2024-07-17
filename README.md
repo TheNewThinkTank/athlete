@@ -12,7 +12,7 @@
 
 # athlete
 
-the athlete project repo contains the athleteprofiler package which can create athlete profiles to compute and analyze physiological metrics
+The athlete project repo contains the athleteprofiler package which can create athlete profiles to compute and analyze physiological metrics
 
 ## Installation
 
@@ -20,8 +20,6 @@ the athlete project repo contains the athleteprofiler package which can create a
 
 ## Usage
 
-see `run.py`
-
-works well together with [Fitness-Tracker](https://github.com/TheNewThinkTank/Fitness-Tracker)
-
-package: https://pypi.org/project/athleteprofiler/
+See `run.py`<br>
+works well together with [fitness-tracker](https://github.com/TheNewThinkTank/fitness-tracker)<br>
+PyPI package: [athleteprofiler](https://pypi.org/project/athleteprofiler/)
